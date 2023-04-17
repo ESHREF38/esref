@@ -1,0 +1,72 @@
+body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menyu {
+            position: sticky;
+            top: 0;
+            background-color: black;
+        }
+
+        .menyu a {
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            line-height: 80px;
+            padding: 10px 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .menyu a:nth-child(1) {
+            font-size: 40px;
+            margin-left: 70px;
+            margin-right: 350px;
+        }
+
+        .nav2 {
+            text-align: center;
+            background-color: white;
+        }
+
+        .nav2 a {
+            padding: 10px 20px;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 30px;
+            line-height: 35px;
+            color: black;
+            margin: 15px;
+        }
+
+        .nav2 a:hover {
+            background-color: gray;
+        }
+
+        .img{
+
+            background-color: white;
+            width: 333px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        img{
+            text-align: center;
+            margin-left: 120px;
+            margin-top: 40px;
+        }
+
+        h4 ,h1{
+            text-align: center;
+        }
+        .son{
+            line-height: 40px;
+            position: bottom;
+            background-color: black;
+            color: white;
+            font-size: 10px;
+            padding-bottom: 1px;
+        }
